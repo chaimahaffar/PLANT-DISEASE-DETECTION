@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/Image%20Processing-OpenCV-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Roboflow-Annotation-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-Powered-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Google%20Colab-Cloud-blue?style=for-the-badge" />
 </p>
 
 ---
