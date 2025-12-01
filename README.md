@@ -41,7 +41,7 @@ The project begins with collecting plant leaf images and annotating them using <
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/yAVgNnE.png" height="80%" width="80%" alt="Data Annotation Step 1"/><br/>
+  <img src="https://i.imgur.com/yAVgNnE.png" height="50%" width="50%" alt="Data Annotation Step 1"/><br/>
   <em>Annotating plant leaf images using Roboflow</em>
 </p>
 
@@ -62,7 +62,7 @@ Once the dataset is ready, the model is trained using <b>Detectron2</b>. Its per
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/9uM4ASz.png" height="80%" width="80%" alt="Final Result"/><br/>
+  <img src="https://i.imgur.com/9uM4ASz.png" height="50%" width="50%" alt="Final Result"/><br/>
   <em>Final segmentation results showing diseased areas on leaves</em>
 </p>
 
