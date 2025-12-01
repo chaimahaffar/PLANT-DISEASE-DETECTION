@@ -1,45 +1,80 @@
-<h1>Plant Disease Detection System</h1>
+<h1 align="center">🌱 Plant Disease Detection System</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Detectron2-Model-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Image%20Processing-OpenCV-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Roboflow-Annotation-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-Powered-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Google%20Colab-Cloud-blue?style=for-the-badge" />
+</p>
+
+---
 
 <h2>Description</h2>
-This project involves the development of a system to automatically segment plant diseases using leaf images. The system is designed to identify and segment affected areas on the leaves, which helps in the early detection and precise treatment of plant diseases. By accurately detecting and highlighting the diseased portions, the system improves the overall management and care of plants. 
-<br />
+
+<p>
+This project involves the development of a system to automatically segment plant diseases using leaf images. The system is designed to identify and segment affected areas on the leaves, enabling early detection and precise treatment of plant diseases. By accurately detecting and highlighting diseased portions, the system improves overall plant management and care.
+</p>
+
+---
 
 <h2>Technologies Used</h2>
-- <b>Detectron2</b> 
-- <b>Image Processing</b>
-- <b>Roboflow</b> (for annotating images in COCO format)
+<ul>
+  <li><b>Detectron2</b> – Object detection and instance segmentation</li>
+  <li><b>Image Processing</b> – Preprocessing and enhancement of leaf images</li>
+  <li><b>Roboflow</b> – Annotating images in COCO format</li>
+</ul>
 
 <h2>Environments Used</h2>
-- <b>Python</b> 
-- <b>OpenCV</b> (for image processing)
-- <b>Google Colab</b> (for model training and testing)
+<ul>
+  <li><b>Python</b></li>
+  <li><b>OpenCV</b> – Image processing</li>
+  <li><b>Google Colab</b> – Model training and testing</li>
+</ul>
+
+---
 
 <h2>Data Collection and Annotation using Roboflow</h2>
 
 <p>
-This project begins with collecting plant leaf images and annotating them using **Roboflow**. Roboflow provides an easy-to-use platform for image annotation, where we mark the affected areas of the plant leaves corresponding to different diseases. Below are the steps of the annotation process:
+The project begins with collecting plant leaf images and annotating them using <b>Roboflow</b>. Roboflow provides an easy-to-use platform for image annotation, where affected areas of plant leaves corresponding to different diseases are marked. Below are examples of the annotation process:
 </p>
 
 <p align="center">
-  Annotating the images with **Roboflow**: <br/>
-  <img src="https://i.imgur.com/yAVgNnE.png" height="80%" width="80%" alt="Data Annotation Step 1"/><br />
-  <br />
+  <img src="https://i.imgur.com/yAVgNnE.png" height="80%" width="80%" alt="Data Annotation Step 1"/><br/>
+  <em>Annotating plant leaf images using Roboflow</em>
+</p>
 
+---
 
 <h2>Data Processing and Labeled Format Verification</h2>
 
 <p>
-After the annotation, the data needs to be processed. The images are organized into appropriate directories, and the labels are verified to be in the correct format (COCO or Pascal VOC). This step ensures that the data is ready for training and can be fed into machine learning models like **Detectron2**. At this stage, no images are included, but it is crucial to ensure that all the data is properly formatted for the training process.
+After annotation, the data is organized into directories, and labels are verified to be in the correct format (COCO or Pascal VOC). This ensures that the dataset is ready for training and compatible with machine learning models like <b>Detectron2</b>. Proper formatting at this stage is critical for successful model training.
 </p>
+
+---
 
 <h2>Running the Code and Evaluation</h2>
 
 <p>
-Once the dataset is ready, the code is run to train the model using **Detectron2**. The model is trained on the annotated images, and its performance is evaluated based on metrics like accuracy, precision, and recall.
+Once the dataset is ready, the model is trained using <b>Detectron2</b>. Its performance is evaluated using metrics such as accuracy, precision, and recall to ensure reliable disease detection and segmentation.
 </p>
 
 <p align="center">
-  Final result: <br/>
-  <img src="https://i.imgur.com/9uM4ASz.png" height="80%" width="80%" alt="Final result"/><br />
-</p> 
+  <img src="https://i.imgur.com/9uM4ASz.png" height="80%" width="80%" alt="Final Result"/><br/>
+  <em>Final segmentation results showing diseased areas on leaves</em>
+</p>
 
+---
+
+<h2>Features</h2>
+<ul>
+  <li>Automatic segmentation of plant diseases</li>
+  <li>Accurate detection of affected leaf areas</li>
+  <li>Supports early intervention and plant care</li>
+  <li>Data annotation and verification workflow with Roboflow</li>
+  <li>Evaluation of model performance using standard metrics</li>
+</ul>
+
+---
