@@ -23,13 +23,6 @@ This project involves the development of a system to automatically segment plant
   <li><b>Roboflow</b> – Annotating images in COCO format</li>
 </ul>
 
-<h2>Environments Used</h2>
-<ul>
-  <li><b>Python</b></li>
-  <li><b>OpenCV</b> – Image processing</li>
-  <li><b>Google Colab</b> – Model training and testing</li>
-</ul>
-
 ---
 
 <h2>Data Collection and Annotation using Roboflow</h2>
